@@ -7,7 +7,7 @@
 Run this one-liner in PowerShell (as Administrator):
 
 ```powershell
-irm https://raw.githubusercontent.com/nh4ttruong/windows-setup/main/setup.ps1 | iex
+irm https://raw.githubusercontent.com/nh4ttruong/windows-setup/main/windows-setup.ps1 | iex
 ```
 
 ## 📦 What It Installs
@@ -21,7 +21,7 @@ irm https://raw.githubusercontent.com/nh4ttruong/windows-setup/main/setup.ps1 | 
 
 ## 📋 Menu Options
 
-```
+```powershell
 1. Install Visual Studio Code
 2. Install Unikey
 3. WSL Setup Menu
@@ -52,10 +52,10 @@ If the one-liner doesn't work:
 
 ```powershell
 # Download
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/nh4ttruong/windows-setup/main/setup.ps1" -OutFile "setup.ps1"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/nh4ttruong/windows-setup/main/windows-setup.ps1" -OutFile "windows-setup.ps1"
 
 # Run
-PowerShell -ExecutionPolicy Bypass -File "setup.ps1"
+PowerShell -ExecutionPolicy Bypass -File "windows-setup.ps1"
 ```
 
 ## ⚠️ Notes
